@@ -1,0 +1,107 @@
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+	background-color: #fff;
+	margin-bottom: 0; /* Elimina espaciado con slider */
+}
+/** Cabecera */
+header {
+	background-color: #9D0523;
+	color: white;
+}
+.espacioso {
+	padding: 10px;
+}
+
+/** Slider */
+.carousel img {
+	width: 100%;
+}
+.carousel-caption {
+	background-color: #fff;
+	color: #9D0523;
+	font-size: 2em;
+	padding: 10px;
+}
+
+/** Call to action */
+.call1 {
+	background-color: #c3102f;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+.call1 .btn {
+	margin: 20px 0;
+	border: solid 0.3em white;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+/** Servicios */
+.servicios {
+	background-color: #555;
+	padding: 10px;
+	text-align: center;
+}
+.servicios .list-group-item {
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-top: 2px solid;
+}
+.servicios .list-group-item:first-child {
+	background-color: transparent;
+	color: white;
+	border:none;
+}
+.servicios .list-group-item:last-child {
+	background-color: transparent;
+	color: white;
+	border-bottom: none;
+}
+
+@media (max-width: 767px) {
+	.servicios .list-group {
+		border:none;
+		border-top: 2px solid white;
+	}
+	.servicios .list-group {
+		margin-bottom: 0;
+	}
+	.servicios .servicioPrimero {
+		border: none;
+	}
+}
+
+/** Footer */
+footer {
+	color: white;
+}
+.pie1 {
+	background-color: #555;
+	padding: 50px 0;
+}
+.pie2 {
+	background-color: #333;
+	text-align: center;
+	padding: 50px 0;
+}
+.pie1 .list-group-item.active {
+	background-color: #c3102f;
+	border: none;
+	border-radius: 0;
+}
+.pie1 .list-group-item {
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-top: 2px solid;
+}
+.pie1 .btn {
+	background-color: #c3102f;
+	border: solid 0.2em white;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 100%;
+}
